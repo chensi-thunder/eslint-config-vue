@@ -1,10 +1,10 @@
 /*
  * @Author: guozp
  * @Date: 2020-01-17 22:42:44
- * @LastEditTime: 2020-03-28 17:22:59
+ * @LastEditTime: 2020-03-28 19:09:53
  * @LastEditors: guozp
  * @Description: Do not edit
- * @FilePath: /web-front-end-eslint/index.js
+ * @FilePath: /eslint-config-vue/index.js
  */
 module.exports = {
 	globals: {
@@ -37,27 +37,5 @@ module.exports = {
 				alignAttributesVertically: false,
 				ignores: []
 		}]
-	},
-	processors: {
-		// assign to the file extension you want (.js, .jsx, .html, etc.)
-		".js": {
-			// takes text of the file and filename
-			preprocess: function(text, filename) {
-				// here, you can strip out any non-JS content
-				// and split into multiple strings to lint
-
-				return [string];  // return an array of strings to lint
-			},
-			// takes a Message[][] and filename
-			postprocess: function(messages, filename) {
-				// `messages` argument contains two-dimensional array of Message objects
-				// where each top-level array item contains array of lint messages related
-				// to the text that was returned in array from preprocess() method
-
-				// you need to return a one-dimensional array of the messages you want to keep
-				return messages[0];
-			},
-			supportsAutofix: true // (optional, defaults to false)
-		}
 	}
 }
