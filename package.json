@@ -1,5 +1,5 @@
 {
-  "name": "@chensi-thunder/eslint-plugin-vue",
+  "name": "@chensi-thunder/eslint-config-vue",
   "version": "1.0.0",
   "description": "eslint vue",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chensi-thunder/eslint-plugin-vue.git"
+    "url": "git+https://github.com/chensi-thunder/eslint-config-vue.git"
   },
   "keywords": [
-    "eslint-plugin-vue",
+    "eslint-config-vue",
     "eslint-vue",
     "eslint"
   ],
   "author": "chensi-thunder",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/chensi-thunder/eslint-plugin-vue/issues"
+    "url": "https://github.com/chensi-thunder/eslint-config-vue/issues"
   },
-  "homepage": "https://github.com/chensi-thunder/eslint-plugin-vue#readme"
+  "homepage": "https://github.com/chensi-thunder/eslint-config-vue#readme"
 }
