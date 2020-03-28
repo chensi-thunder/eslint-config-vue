@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-vue",
+  "name": "@chensi-thunder/eslint-plugin-vue",
   "version": "1.0.0",
   "description": "eslint vue",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "eslint"
   ],
   "author": "chensi-thunder",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/chensi-thunder/eslint-plugin-vue/issues"
   },
